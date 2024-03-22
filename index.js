@@ -13,3 +13,5 @@ router(app);
 app.listen(process.env.PORT || 8000, () => {
   console.log("Server run at port 8000");
 });
+
+module.exports = app;
